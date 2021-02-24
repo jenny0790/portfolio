@@ -1,0 +1,56 @@
+#info .container {
+    padding-top: 50px;
+    position : relative;
+}
+
+#info .intro {
+    background-color: #E9F5FF;
+    padding-bottom : 50px;
+    padding-top : 50px;
+}
+
+#info .intro h1 {
+    padding-bottom: 10px;
+}
+
+#info .intro p {
+    line-height: 1.5em;
+}
+
+#info img {
+    width: 100%;
+    max-width: 840px;
+    padding-bottom: 100px;
+}
+
+#info .container small {
+    font-weight: bold;
+}
+
+#info table {
+    margin : auto;
+}
+
+#info table th {
+    font-weight: bold;
+    color : #488BFF;
+    background : #E9F5FF;
+    border-top : 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#info table th, td {
+    padding : 10px;
+} 
+
+#info .text {
+    color : #488BFF;
+    font-size : 18px;
+    font-weight: bold;
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
+#info li {
+    padding-bottom: 30px;
+}

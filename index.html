@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny's WebDesign Portfolio</title>
+
+    <!-- font --> 
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/mobil.css" media="screen and (max-width:767px)">
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 사용자 script -->
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header id="main_header">
+        <div class="container">
+            <h1><a href="./">Kim HanByoul</a></h1>
+            <nav id="gnb">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!--end container-->
+    </header>
+
+    <!-- visual -->
+    <section id="visual">
+        <div class="container">
+            <div class="main_title">
+                <h2>Kim HanByoul<br>
+                    I'm Web Designer :)
+                </h2>
+                <small>Photoshop / Illustrator / HTML / CSS / JavaScript</small>
+            </div>
+
+        </div> <!-- end container-->
+    </section>
+
+    <!-- main_portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2><a href="./portfolio.html">PORTFOLIO</a></h2>
+            <div class="tab-group">
+                <button class="btn-all">ALL</button>
+                <button class="btn-web">WEB</button>
+                <button class="btn-uiux">UI/UX</button>
+                <button class="btn-visual">VISUAL</button>
+            </div>
+            
+            <!-- 작품목록 -->
+            <ul class="list row">
+                <li class="col_4 web">
+                    <a class="gallery_1" href="./work/work1.html" ><img src="./images/work/work1.png" alt="web"></a>
+                </li>
+                <li class="col_4 web">
+                    <a class="gallery_2" href="./work/work2.html"><img src="./images/work/work2.png" alt="web" ></a>
+                </li>
+                <li class="col_4 uiux">
+                    <a class="gallery_3" href="./work/work3.html"><img src="./images/work/work3.png" alt="mobile"></a>
+                </li>
+                <li class="col_4 uiux">
+                    <a class="gallery_4" href="./work/work4.html"><img src="./images/work/work4.png" alt="uiux"></a>
+                </li>
+                <li class="col_4 visual">
+                    <a class="gallery_5" href="./work/work5.html"><img src="./images/work/work5.png" alt="icon"></a>
+                </li>
+                <li class="col_4 visual">
+                    <a class="gallery_6" href="./work/work6.html"><img src="./images/work/work6.png" alt="poster"></a>
+                </li>
+            </ul>
+        </div> <!-- end container-->
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>COPYRIGHT KIMHANBYOUL ⓒ2021 ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+</html>
