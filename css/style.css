@@ -10,7 +10,8 @@ ul {list-style-type: none;}
 a {text-decoration: none;}
 
 body {
-    font-family: 'Nanum Gothic', sans-serif; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size : 16px;
     color : #333;
     text-align: center;
@@ -56,11 +57,10 @@ body {
     display: block;
 }
 
-#gnb > ul > li > a:hover {
+#gnb > ul > li > a:hover, a:active{
     border-bottom : 2px solid #fff;
     font-weight: bold;
 }
-
 
 #visual {
     width: 100%;
@@ -89,8 +89,14 @@ body {
 #visual .main_title h2 {
     font-size : 30px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
+#visual .skill {
+    padding : 20px;
+    background : #E9F5FF;
+
+}
 
 #footer {
     width: 100%;
@@ -127,13 +133,9 @@ body {
     text-align: center;
     padding-top : 30px;
     padding-bottom: 0px;
-    
 }
 
-#portfolio .tab-group button,
-#detail .btn-more,
-#portfolio .btn-more {
-    /* outline : 1px solid green; */
+#portfolio .tab-group button, .btn-more {
     margin : 20px;
     background : #fff;
     border : #fff;
@@ -147,28 +149,28 @@ body {
 }
 
 #portfolio .tab-group button:hover, 
-#detail .btn-more:hover, 
-#portfolio .btn-more:hover{
+.btn-more:hover{
     color : #488BFF;
     font-weight: bold;
 }
 #portfolio .tab-group button:focus{
     outline : none;
+    color : #488BFF;
+    font-weight: bold;
 }
  
 .list li {
     overflow : hidden;
-    margin-bottom : 20px;
+    margin : 10px;
+    /* outline : 1px solid green; */
 }
 
 .list img {
     /* width: 100%; */
-    display: block;
+    display: inline-block;
 }
-
-#detail .container small {
-    font-size : 12px;
+.list li:hover {
+    outline : 2px solid #488BFF;
 }
-
 
 @media screen and (max-width: 767px) {}

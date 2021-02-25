@@ -15,6 +15,7 @@
 
 #info .intro p {
     line-height: 1.5em;
+    padding : 10px 20px;
 }
 
 #info img {
@@ -28,6 +29,7 @@
 }
 
 #info table {
+    padding-top : 20px;
     margin : auto;
 }
 

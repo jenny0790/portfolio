@@ -52,9 +52,9 @@ p {
     position : absolute;
     width: 60%;
     top : 25%;
-    transform : translateY(-50%);
+    transform : translateY(-30%);
     padding : 15px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0em;
 }
 
 #visual .main_title h2 {
@@ -106,3 +106,4 @@ p {
 #detail .work6 img{
     width: 80%;
 }
+
