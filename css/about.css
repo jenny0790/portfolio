@@ -1,5 +1,6 @@
 #info .container {
     padding-top: 50px;
+    padding-bottom : 50px;
     position : relative;
 }
 
@@ -30,15 +31,18 @@
 
 #info table {
     padding-top : 20px;
-    margin : auto;
+    margin : 0 auto;
 }
 
 #info table th {
     font-weight: bold;
-    color : #488BFF;
     background : #E9F5FF;
     border-top : 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+}
+
+#info table td {
+    border-bottom : 1px solid #ccc;
 }
 
 #info table th, td {
